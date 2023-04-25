@@ -1,0 +1,17 @@
+@charset "EUC-KR";
+
+body {
+	margin: 0 auto;
+}
+
+img {
+	position: relative;
+	width: 30%;
+	left: 50%;
+	transform: translate(-50%);
+	transition: 0.5s;
+}
+
+img:hover {
+	width: 45%;
+}
